@@ -6,6 +6,7 @@
 //
 
 // call header funcstions for predefined standards.
+// new definitions added
 #include <stdio.h> // function
 #include "math.h"
 #include "time.h"
