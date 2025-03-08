@@ -12,7 +12,7 @@
 #include "time.h"
 #include "stdlib.h"
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char *argv[]) {
     // define variables
     float logaritmic_value;
     float logaritmic_e;
@@ -24,9 +24,8 @@ int main(int argc, const char * argv[]) {
     logaritmic_e = log(deger);
     // logarithm of x base b = log(x)/log(b)
     
-    printf("Logarithm (base-10) of %d is %f \n", deger, logaritmic_value );
-    printf("Logarithm (base-E) of %d is %f \n", deger, logaritmic_e );
-
+    printf("Logarithm (base-10) of %d is %f \n", deger, logaritmic_value);
+    printf("Logarithm (base-E) of %d is %f \n", deger, logaritmic_e);
     
     return 0;
 }
